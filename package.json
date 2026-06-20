@@ -1,0 +1,21 @@
+{
+  "name": "bkt-creation-backend",
+  "version": "1.0.0",
+  "description": "Backend service for BKT Creation — handles Kling AI video generation requests so the API key never reaches the browser.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
